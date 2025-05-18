@@ -27,7 +27,7 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <img
-              src="src\images\ChatGPT Image Apr 20, 2025, 06_03_53 PM.png" 
+              src="/images/factory.png" 
               alt="Factory and plastic packaging"
               className="rounded-lg shadow-lg w-full h-[400px] object-cover"
             />
