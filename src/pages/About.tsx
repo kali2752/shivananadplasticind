@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { History, Target, Award, Users } from 'lucide-react';
+import fp from '../images/factory.png';
 
 const About = () => {
   return (
@@ -27,7 +28,7 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <img
-              src="/images/factory.png" 
+              src={fp}
               alt="Factory and plastic packaging"
               className="rounded-lg shadow-lg w-full h-[400px] object-cover"
             />
